@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 #load sav file
-model = pickle.load(open('C:/Users/mhjja/LATIHANPY/HeartDisease/Penyakit_Jantung.sav','rb'))
+model = pickle.load(open('Penyakit_Jantung.sav','rb'))
 
 #judul web
 st.title('Prediksi Penyakit Jantung')
